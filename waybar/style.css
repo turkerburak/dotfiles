@@ -1,0 +1,118 @@
+* {
+  font-family: Hack Nerd Font;
+  font-size: 14px;
+  min-height: 0;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 0px;
+}
+
+#waybar {
+  background: transparent;
+  color: #c6d0f5;
+  margin: 2px 2px;
+}
+
+#workspaces {
+  margin: 5px;
+  background: #282a36;
+}
+
+#workspaces button {
+  color: #babbf1;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: #99d1db;
+}
+
+#workspaces button:hover {
+  color: #85c1dc;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#custom-lock,
+#custom-cpu_temp,
+#custom-power {
+  background-color: #282a36;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+
+#custom-stream_status {
+  background-color: #101010;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+
+#custom-stream_status.up {
+  color: #c3e88d;
+}
+
+#custom-stream_status.warning {
+  color: #ff9e64;
+}
+
+#custom-stream_status.down {
+  color: #ea999c;
+}
+
+#memory {
+}
+
+#clock {
+  color: #8caaee;
+  margin-right: 1rem;
+}
+
+#battery {
+  color: #a6d189;
+}
+
+#battery.charging {
+  color: #a6d189;
+}
+
+#battery.warning:not(.charging) {
+  color: #e78284;
+}
+
+#backlight {
+  color: #e5c890;
+}
+
+#backlight,
+#battery {
+}
+
+#pulseaudio {
+  color: #ea999c;
+  margin-left: 1rem;
+}
+
+#custom-music {
+  color: #ca9ee6;
+}
+
+#custom-lock {
+  color: #babbf1;
+}
+
+#custom-power {
+  margin-right: 1rem;
+  color: #e78284;
+}
+
+#tray {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
