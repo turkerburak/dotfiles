@@ -15,7 +15,7 @@
 
 #workspaces {
   margin: 5px;
-  background: #282a36;
+  background: #000000;
 }
 
 #workspaces button {
@@ -43,7 +43,7 @@
 #custom-lock,
 #custom-cpu_temp,
 #custom-power {
-  background-color: #282a36;
+  background-color: #000000;
   padding: 0.5rem 1rem;
   margin: 5px 0;
 }
