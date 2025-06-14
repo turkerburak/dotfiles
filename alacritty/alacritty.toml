@@ -12,33 +12,34 @@ italic = { family = "FiraCode Nerd Font", style = "Italic" }
 bold_italic = { family = "FiraCode Nerd Font", style = "Bold Italic" }
 size = 13.0
 
+
 [colors.primary]
-background = "#1e1e2e"
-foreground = "#cdd6f4"
+background = "#1a1b26"
+foreground = "#c0caf5"
 
 [colors.cursor]
-text = "#1e1e2e"
-cursor = "#cdd6f4"
+text = "#1a1b26"
+cursor = "#c0caf5"
 
 [colors.normal]
-black   = "#1e1e2e"
-red     = "#f38ba8"
-green   = "#a6e3a1"
-yellow  = "#f9e2af"
-blue    = "#89b4fa"
-magenta = "#f5c2e7"
-cyan    = "#94e2d5"
-white   = "#cdd6f4"
+black   = "#15161E"
+red     = "#f7768e"
+green   = "#9ece6a"
+yellow  = "#e0af68"
+blue    = "#7aa2f7"
+magenta = "#bb9af7"
+cyan    = "#7dcfff"
+white   = "#a9b1d6"
 
 [colors.bright]
-black   = "#45475a"
-red     = "#f38ba8"
-green   = "#a6e3a1"
-yellow  = "#f9e2af"
-blue    = "#89b4fa"
-magenta = "#f5c2e7"
-cyan    = "#94e2d5"
-white   = "#ffffff"
+black   = "#414868"
+red     = "#f7768e"
+green   = "#9ece6a"
+yellow  = "#e0af68"
+blue    = "#7aa2f7"
+magenta = "#bb9af7"
+cyan    = "#7dcfff"
+white   = "#c0caf5"
 
 [cursor]
 style = "Block"

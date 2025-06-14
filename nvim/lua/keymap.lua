@@ -1,0 +1,11 @@
+vim.g.mapleader = " "
+vim.keymap.set("i", "jk", "<Esc>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>f", ":Explore<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>w", ":w<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>q", ":q<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "dw", "\"_dw")
+vim.keymap.set("n", "daw", "\"_daw")
+vim.keymap.set("n", "dd", "\"_dd")
+vim.keymap.set("n", "x", "\"_x")
+vim.keymap.set("n", "<leader>o", "o<Esc>", { desc = "Insert blank line below" })
+vim.keymap.set("n", "<leader>O", "O<Esc>", { desc = "Insert blank line above" })

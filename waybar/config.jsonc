@@ -8,7 +8,8 @@
     "battery",
     "pulseaudio",
     "memory",
-    "custom/cpu_temp"
+    "custom/cpu_temp",
+    "clock"
   ],
 
   "hyprland/workspaces": {
@@ -19,11 +20,12 @@
   "hyprland/window": {
     "max-length": 60
   },
+
   "custom/cpu_temp": {
     "exec": "sh ~/.config/waybar/scripts/cpu_temp.sh",
     "interval": 5,
     "format": " {}"
-},
+  },
 
   "memory": {
     "format": " {used:0.1f}G",
@@ -45,5 +47,11 @@
     "format": " {capacity}%",
     "format-charging": " {capacity}%",
     "tooltip": false
+  },
+
+  "clock": {
+    "format": " {:%H:%M}",
+    "tooltip": true,
+    "tooltip-format": "{:%A, %B %d %Y | %H:%M:%S}"
   }
 }
